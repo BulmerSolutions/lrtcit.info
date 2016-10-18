@@ -6,7 +6,7 @@
 
 body {
   background: #0066ff;
-  background: linear-gradient(#3399ff 0%, #0066ff %50);
+  background: linear-gradient(141deg, #3399ff 0%, #0066ff %50);
 }
 
 h1 {
@@ -16,7 +16,7 @@ h1 {
 tile {
   display: block;
   background-color: #FFF;
-  background: linear-gradient(#FFF 0%, #999 %50);
+  background: linear-gradient(141deg, #FFF 0%, #999 %50);
   width: 6em;
   height: 6em;
   border-radius: 6em;
