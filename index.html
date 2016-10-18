@@ -60,7 +60,7 @@
         document.getElementById("title").style.color="rgb(" + r + "," + g + "," + b + ")"
       }
       setTimeout("color()",10)
-      document.body.addEventListener("keyup", function(e){
+      document.addEventListener("keyup", function(e){
         if(e.keyCode == '113'){
           clearTimeout(color);
         }
