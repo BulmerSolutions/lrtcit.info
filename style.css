@@ -15,7 +15,8 @@ h1 {
 
 tile {
   display: block;
-  background-color: linear-gradient(#FFF 0%, #999 %50);
+  background-color: #FFF;
+  background: linear-gradient(#FFF 0%, #999 %50);
   width: 5em;
   height: 5em;
   border-radius: 5em;
