@@ -11,7 +11,7 @@ body {
 
 h1 {
   text-align: center;
-  color: #FFF;
+  color: linear-gradient(141deg, #2B0FE0 75%, #2BADE2 0%);
 }
 
 tile {
