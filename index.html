@@ -1,0 +1,72 @@
+<!DECTYPE html>
+  <head>
+    <title>LRTC's IT Program</title>
+    <link rel='stylesheet' href='style.css'>
+    <script>
+      // I respect this person's code :)
+      var c=0
+      var r=0
+      var g=0
+      var b=0
+      function color()
+      {
+        switch(c)
+        {
+        case 0:
+          if(r<=255)
+          {
+            r++
+          }
+          else
+          {
+            c++
+          }
+          break
+        case 1:
+          if(g<=255)
+          {
+            g++
+            r--
+          }
+          else
+          {
+            c++
+          }
+          break
+        case 2:
+          if(b<=255)
+          {
+            b++
+            g--
+          }
+          else
+          {
+            c++
+          }
+          break
+        case 3:
+          if(r<=255)
+          {
+            r++
+            b--
+          }
+          else
+          {
+            c=1
+          }
+          break
+        }
+        document.getElementById("title").style.color="rgb(" + r + "," + g + "," + b + ")"
+      }
+      setTimeout("color()",10)
+      document.body.addEventListener(function(e){
+        if(e.keyCode == '113'){
+          clearTimeout(color);
+        }
+      })
+    </script>
+  </head>
+  <body>
+    <h1 id="title">LRTC IT Program Links:</h1>
+  </body>
+</html>
