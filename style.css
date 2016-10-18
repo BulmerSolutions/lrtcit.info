@@ -13,7 +13,8 @@ h1 {
 }
 
 tile {
-  background-color: white;
+  display: block;
+  background-color: linear-gradient(#FFF 0%, #999 %50);
   width: 2.5em;
   height: 2.5em;
   border-radius: 2.5em;
