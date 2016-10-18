@@ -6,17 +6,18 @@
 
 body {
   background-color: #0066ff;
-  background: linear-gradient(141deg, #52e0e0 0%, #2B32EB 75%);
+  background: linear-gradient(141deg, #2BADE2 0%, #2B0FE0 75%);
 }
 
 h1 {
   text-align: center;
+  color: #FFF;
 }
 
 tile {
   display: block;
   background-color: #FFF;
-  background: linear-gradient(141deg, #FFF 0%, #AAA 75%);
+  background: linear-gradient(141deg, #FFF 0%, #DDD 75%);
   width: 6em;
   height: 6em;
   border-radius: 6em;
