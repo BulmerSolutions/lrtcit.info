@@ -1,4 +1,5 @@
 <!DECTYPE html>
+<html>
   <head>
     <title>LRTC's IT Program</title>
     <link rel='stylesheet' href='style.css'>
@@ -59,7 +60,7 @@
         document.getElementById("title").style.color="rgb(" + r + "," + g + "," + b + ")"
       }
       setTimeout("color()",10)
-      document.body.addEventListener(function(e){
+      document.addEventListener(function(e){
         if(e.keyCode == '113'){
           clearTimeout(color);
         }
@@ -68,5 +69,8 @@
   </head>
   <body>
     <h1 id="title">LRTC IT Program Links:</h1>
+    <tile>Helpdesk<br>Login</tile>
+    <tile>CompTIA<br>Wiki</tile>
+    <tile>Outlook<br>Web Access</tile>
   </body>
 </html>
