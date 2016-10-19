@@ -23,7 +23,7 @@ h1 {
 tile {
   display: inline-block;
   background-color: #FFF;
-  background: linear-gradient(141deg, #FFF 0%, #DDD 75%);
+  background: linear-gradient(141deg, #FFF 0%, #BBB 75%);
   width: 6em;
   height: 6em;
   border-radius: 6em;
