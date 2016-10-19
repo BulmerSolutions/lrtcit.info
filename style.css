@@ -31,6 +31,10 @@ tile {
   vertical-align: middle;
 }
 
+tile:hover {
+  background: linear-gradient(141deg, #BBB 0%, #FFF 75%);
+}
+
 a {
   color: black;
   text-decoration: none;
