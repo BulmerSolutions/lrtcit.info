@@ -43,7 +43,7 @@ a {
   left: calc(50% - 21.75em);
 }
 
-@media (max-width: 30em) {
+@media all and (max-width: 30em) {
   #positioned {
     width: 13em
     left: calc(50% - 6.5em);
