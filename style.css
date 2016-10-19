@@ -55,6 +55,10 @@ a {
     left: calc(50% - 6.5em);
   }
 }
+
+facnyLetter:hover {
+  color: #BBB;
+}
   
 @media handheld and (orientation:portrait) {
   #positioned {
