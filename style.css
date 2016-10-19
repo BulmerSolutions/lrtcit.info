@@ -43,7 +43,7 @@ a {
   left: calc(50% - 21.75em);
 }
 
-@media screen and (max-width: 40em) {
+@media all and (max-width: 40em) {
   #positioned {
     min-width: 12.3em;
     width: 6em;
