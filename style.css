@@ -40,7 +40,7 @@ a {
   position: fixed;
   top: 25em;
   min-width: 31.5em;
-  left: calc(50% - 21.75em);
+  left: calc(50% - 15.75em);
 }
 
 @media all and (max-width: 40em) {
