@@ -58,8 +58,6 @@ a {
 
 fancyLetter:hover {
   color: #BBB;
-  position: fixed;
-  top: 1.75em;
 }
   
 @media handheld and (orientation:portrait) {
