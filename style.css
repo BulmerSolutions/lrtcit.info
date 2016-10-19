@@ -43,17 +43,7 @@ a {
   left: calc(50% - 21.75em);
 }
 
-@media all and (max-width: 40em) {
-  #positioned {
-    min-width: 12.3em;
-    width: 6em;
-    top: 10em;
-    left: calc(50% - 6.5em);
-  }
-}
-
-
-@media handheld and (orientation:portrait) {
+@media all and (max-width: 40em), handheld and (orientation:portrait) {
   #positioned {
     min-width: 12.3em;
     width: 6em;
