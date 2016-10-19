@@ -39,7 +39,7 @@ a {
 #positioned {
   position: fixed;
   top: 25em;
-  min-width: 43.5em;
+  min-width: 31.5em;
   left: calc(50% - 21.75em);
 }
 
