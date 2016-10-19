@@ -35,3 +35,17 @@ a {
   color: black;
   text-decoration: none;
 }
+
+#positioned {
+  position: fixed;
+  top: 10em;
+  min-width: 13em;
+  left: calc(50% - 21.75em);
+}
+
+@media (max-width: 20em) {
+  #positioned {
+    width: 13em
+    left: calc(50% - 6.5em);
+  }
+}
