@@ -38,14 +38,15 @@ a {
 
 #positioned {
   position: fixed;
-  top: 10em;
-  min-width: 13em;
+  top: 25em;
+  min-width: 43.5em;
   left: calc(50% - 21.75em);
 }
 
 @media all and (max-width: 40em) {
   #positioned {
     width: 13em;
+    top: 10em;
     left: calc(50% - 6.5em);
   }
 }
