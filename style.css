@@ -45,7 +45,7 @@ a {
 
 @media all and (min-width: 30em) {
   #positioned {
-    width: 13em
+    width: 13em;
     left: calc(50% - 6.5em);
   }
 }
